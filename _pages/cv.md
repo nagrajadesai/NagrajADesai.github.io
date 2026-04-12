@@ -9,7 +9,7 @@ redirect_from:
 
 <!-- {% include base_path %} -->
 
-### ⬇️ [Download Resume](\files\nagraj_desai_resume.pdf)
+### ⬇️ [Download Resume](\files\nagraj_resume_AI.pdf)
 
 ---
 
