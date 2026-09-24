@@ -9,13 +9,13 @@ redirect_from:
 
 <!-- {% include base_path %} -->
 
-### ⬇️ [Download Resume](\files\nagraj_resume_AI.pdf)
+### ⬇️ [Download Resume](/files/nagraj_resume_AI.pdf)
 
 ---
 
 ## 👨‍💻 Professional Summary
 
-AI Engineer with hands-on experience in Large Language Models (LLMs), GPU-accelerated systems, and production-grade MLOps. I specialize in designing and deploying scalable AI inference pipelines, RAG systems, and Model-as-a-Service platforms using Docker, Kubernetes, and vLLM. Passionate about optimizing performance, latency, and GPU utilization for real-world AI systems.
+AI Engineer with hands-on experience in **LLM inference optimization, GPU infrastructure, and production-scale AI systems**. I specialize in hardware-aware model deployment, disaggregated inference, KV-aware routing, and on-premise AI platform engineering using NVIDIA GPUs, vLLM, NVIDIA Dynamo, Docker, and Kubernetes. Supporting production workloads serving **300K+ LLM requests/day**.
 
 ---
 
@@ -25,11 +25,13 @@ AI Engineer with hands-on experience in Large Language Models (LLMs), GPU-accele
 
 📅 _April 2025 – Present_
 
-- Building an on-premise Model-as-a-Service (MaaS) platform using Docker, Kubernetes, and vLLM
-- Designed distributed inference workflows to maximize GPU utilization and reduce latency
-- Developed scalable RAG pipelines inside Kubernetes pods for unstructured document intelligence
+- Building an **on-premise Model-as-a-Service (MaaS)** platform using Docker, Kubernetes, and vLLM
+- Designed **KV-aware routing and disaggregated prefill/decode inference** with NVIDIA Dynamo for maximum GPU utilization
+- Implemented **FP8 optimization** and hardware-aware model selection based on GPU VRAM and workload requirements
 - Integrated NVIDIA NIM GPU-accelerated microservices and multiple LLMs into production systems
-- Centralized model access through a unified Open Web UI for enterprise usage
+- Supporting production AI serving **300,000+ LLM requests/day** with optimized latency and throughput
+- Developed scalable **Agentic RAG pipelines** in Kubernetes using LangGraph, Qdrant, and FastAPI
+- Centralized model access through a unified Open Web UI for enterprise-wide usage
 
 ---
 
@@ -38,35 +40,39 @@ AI Engineer with hands-on experience in Large Language Models (LLMs), GPU-accele
 📅 _July 2024 – January 2025_
 
 - Built vehicle health prediction algorithms and real-time APIs using Python and GraphQL
-- Improved event prediction accuracy from 99.5% to 99.62%
-- Optimized data extraction pipelines, reducing processing time by 78% (3 hours → 40 minutes)
+- Improved event prediction accuracy from **99.5% to 99.62%**
+- Optimized data extraction pipelines, reducing processing time by **78%** (3 hours → 40 minutes)
 - Conducted daily large-scale vehicle performance analysis, ensuring data integrity and consistency
 
 ---
 
 ## 🛠️ Technical Skills
 
-### **Core AI & ML**
+### **LLM Inference & GPU Infrastructure**
 
-- Machine Learning, Deep Learning, Transformers
-- Large Language Models (LLMs), RAG Systems
-- Model Optimization, Quantization
+- vLLM, NVIDIA Dynamo, NVIDIA NIM, Triton Inference Server
+- KV-aware routing, Disaggregated Inference, FP8 Optimization
+- Hardware-aware model deployment, VRAM planning, throughput/latency tuning
+- NVIDIA DGX Systems, GPU utilization optimization
 
-### **Frameworks & Libraries**
+### **AI & Machine Learning**
 
-- PyTorch, vLLM, Hugging Face, LangChain
-- Scikit-learn, Pandas, NumPy
+- Large Language Models (LLMs), RAG Systems, Agentic AI
+- LangGraph, LangChain, Qdrant (Vector Database)
+- Model Quantization, Fine-tuning (QLoRA, GRPO), Transformers
+- PyTorch, Hugging Face, Scikit-learn, Pandas, NumPy
 
 ### **MLOps & Deployment**
 
-- Docker, Kubernetes, NVIDIA NIM
-- Triton Inference Server, Model Serving
+- Docker, Kubernetes, Helm
+- FastAPI, Streamlit
+- Linux (RHEL), Git & GitHub, CI/CD
 
 ### **Backend & Tools**
 
-- FastAPI, Streamlit, Linux, RHEL
-- Git & GitHub, MySQL
+- Python, SQL, GraphQL
 - Power BI, MS Excel
+- Monitoring & Observability
 
 ---
 
@@ -77,41 +83,56 @@ _IIIT Bangalore_ — 2023–2024
 **Specialization:** Deep Learning & Generative AI
 **CGPA:** 3.97 / 4.0
 
-🎓 **B.Tech (Engineering)**
+🎓 **B.Tech in Mechanical Engineering**
 _Shivaji University, Kolhapur_ — 2019–2023
 **CGPA:** 8.94 / 10
 
 ---
 
-## 📂 Selected Projects
+## 📂 Featured Projects
 
-### **Reasoning-Enhanced LLM Fine-Tuning**
+### **AI Voice Agent**
 
-**Tech:** Python, PyTorch, Unsloth, QLoRA
+**Tech:** Python, LLM, Speech-to-Text, Text-to-Speech, FastAPI
 
-- Fine-tuned Llama-3.2-3B using 4-bit quantization on a T4 GPU
-- Integrated Chain-of-Thought reasoning using R1-Distill-SFT dataset
+**Repo:** [github.com/nagrajadesai/ai-voice-agent](https://github.com/nagrajadesai/ai-voice-agent)
 
-### **RAG-Based Knowledge Retrieval System**
+- Built a production-ready AI voice agent with real-time speech interaction capabilities
+- Integrated LLMs with voice pipelines for natural conversational AI
 
-**Tech:** LLMs, LangChain, VectorDB, Docker, Streamlit
+### **Banking Agent — Agentic AI for Finance**
 
-- Built a scalable RAG pipeline for unstructured document intelligence
-- Fully containerized for reproducible deployment
+**Tech:** LangGraph, Python, LLMs, FastAPI
 
-### **Visual-Semantic Image Captioning Engine**
+**Repo:** [github.com/nagrajadesai/banking-agent](https://github.com/nagrajadesai/banking-agent)
 
-**Tech:** CNN, GRU, Attention, PyTorch
+- Developed an agentic AI system for banking workflows and financial task automation
+- Multi-step reasoning with LangGraph for complex financial query resolution
 
-- Built an encoder–decoder image captioning system
-- Achieved BLEU score of 0.6 on Flickr8K dataset
+### **Model Sizing Calculator**
+
+**Tech:** Python, GPU Infrastructure, VRAM Estimation
+
+**Repo:** [github.com/nagrajadesai/model-sizing](https://github.com/nagrajadesai/model-sizing)
+
+- Built a tool to calculate GPU VRAM requirements for LLM deployment
+- Supports hardware-aware model selection for optimal inference performance
+
+### **NIMbleRAG — Production Agentic RAG System**
+
+**Tech:** LLMs, LangGraph, Qdrant, FastAPI, NVIDIA NIM
+
+**Repo:** [github.com/nagrajadesai/NIMbleRAG](https://github.com/nagrajadesai/NIMbleRAG)
+
+- Built a production-grade RAG system for document intelligence using NVIDIA AI technologies
+- Containerized deployment with Kubernetes for scalable document retrieval and generation
 
 ---
 
 ## 📜 Certifications
 
 - **NVIDIA Technical Curriculum (2025)**
-  _DGX Systems, AI Compute, Generative AI_
+  _DGX Systems, AI Compute, Generative AI, NVIDIA Dynamo_
 
 - **Machine Learning** — _Coursera_
   _Foundations of supervised & unsupervised learning_
@@ -133,7 +154,7 @@ _Shivaji University, Kolhapur_ — 2019–2023
 
 ---
 
-## 🤝 Let’s Collaborate
+## 🤝 Let's Collaborate
 
-Interested in LLM infrastructure, GPU optimization, model serving, or AI systems engineering?
-Let’s connect and build scalable AI solutions.
+Interested in **LLM infrastructure, GPU optimization, model serving, NVIDIA AI systems**, or **production Agentic AI**?
+Let's connect and build scalable AI solutions together.

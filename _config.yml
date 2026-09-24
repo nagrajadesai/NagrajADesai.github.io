@@ -12,23 +12,23 @@ title                    : "About"
 title_separator          : "-"
 name                     : &name "Nagraj Desai"
 description              : &description "AI Engineer"
-url                      : https://NagrajADesai.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://nagrajadesai.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "NagrajADesai/NagrajADesai.github.io"
+repository               : "nagrajadesai/nagrajadesai.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_pic.png"
+  avatar           : "profile_image.png"
   name             : "Nagraj Desai"
   pronouns         : # example: "she/her"  
-  bio              : "Building intelligent, scalable AI systems that transform data into real-world impact."
+  bio              : "Agentic AI · LLM Inference · GPU Infrastructure · Production AI"
   location         : "Bangalore, Karnataka, IN"
   employer         : #"Red Brick University"
   uri              : # URL
-  email            : "nagrajdesaee@gmail.com" 
+  email            : "nagrajdesai.in@gmail.com"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -42,7 +42,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "NagrajADesai"
+  github           : "nagrajadesai"
   kaggle           : "nagrajdesai"
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

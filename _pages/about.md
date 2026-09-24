@@ -6,67 +6,75 @@ redirect_from:
   - /about/
   - /about.html
 ---
-## Building Scalable AI Systems for the Real World 🚀
 
-### Welcome to my digital workspace
+## Building Intelligent AI Systems — From Agent Logic to GPU Infrastructure 🤖
 
-I’m Nagraj Desai, an AI Engineer based in India, focused on designing, deploying, and scaling production-grade AI systems. What began as a curiosity for problem-solving has evolved into a deep passion for building high-performance, reliable, and scalable AI solutions.
+I'm **Nagraj Desai**, an AI Engineer who builds end-to-end AI systems — from intelligent agents and RAG pipelines to the GPU infrastructure that runs them at production scale.
 
-My expertise goes beyond training models—I specialize in making AI work in production.
+I specialize in **Agentic AI** (LangGraph, multi-step reasoning, tool-calling systems) and **LLM inference optimization** (vLLM, NVIDIA Dynamo, FP8, KV-aware routing). I bridge the gap between AI model development and the infrastructure required to serve it efficiently, reliably, and at scale.
 
----
-
-## What I Do
-
-I work at the intersection of Large Language Models, GPU computing, and MLOps, with a strong emphasis on system efficiency and real-world deployment.
-
-**Core strengths:**
-
-* **Large Language Models (LLMs)** – inference optimization, RAG pipelines, and model serving
-* **GPU-Accelerated Systems** – efficient GPU utilization, memory optimization, and throughput tuning
-* **MLOps & Deployment** – Docker, Kubernetes-based deployments, scalable inference
-* **AI Infrastructure** – vLLM, LangChain, containerized workflows, distributed systems
-
-I focus on the *how*:
-
-* How to serve LLMs at scale
-* How to optimize latency and cost
-* How to integrate AI seamlessly into user-facing applications
+Currently serving **300K+ LLM requests/day** on on-premise NVIDIA GPU infrastructure.
 
 ---
 
-## Professional Experience
+## 🤖 Agentic AI & GenAI Systems
 
-### **AI Engineer — Micropoint Computers**
+I design and build **autonomous AI agents** that reason, plan, and act — going far beyond simple chatbots.
 
-* Optimizing GPU utilization for high-throughput AI workloads
-* Deploying custom Retrieval-Augmented Generation (RAG) solutions
-* Building scalable and production-ready LLM inference pipelines
+* **Agentic RAG** — LangGraph-powered agents that decide *when* and *what* to retrieve, enabling multi-step reasoning over documents
+* **AI Voice Agents** — real-time speech-to-LLM-to-speech pipelines for natural conversational AI
+* **Banking & Finance Agents** — multi-step tool-calling agents for complex financial workflow automation
+* **NIMbleRAG** — production-grade Agentic RAG using NVIDIA NIM, Qdrant, FastAPI, and Kubernetes
 
-### **Data Science Intern — Taabi Mobility**
-
-* Developed real-time predictive health algorithms for vehicles
-* Improved large-scale data extraction and processing workflows
-* Worked on performance-driven analytics for operational decision-making
+**Core stack:** Python • LangGraph • LangChain • Qdrant • FastAPI • NVIDIA NIM
 
 ---
 
-## Education
+## ⚡ LLM Inference & GPU Infrastructure
+
+I know how to make LLMs run **fast, cheap, and at scale** on real hardware. This isn't theoretical — I work hands-on with GPU clusters daily.
+
+* **Inference engines** — vLLM (PagedAttention, continuous batching, chunked prefill), NVIDIA Dynamo
+* **Advanced techniques** — disaggregated prefill/decode, KV-aware routing, FP8 quantization
+* **Deployment** — Docker, Kubernetes (GPU-enabled), NVIDIA NIM microservices
+* **Hardware-aware planning** — VRAM estimation, model sizing, quantization format selection (FP16/FP8/AWQ/GPTQ/GGUF)
+* **Platform engineering** — on-premise MaaS platforms, Open WebUI, Triton Inference Server
+
+**Core stack:** vLLM • NVIDIA Dynamo • NVIDIA NIM • Kubernetes • Docker • Triton
+
+---
+
+## 💼 Professional Experience
+
+### **AI Engineer — Micropoint Computers Pvt. Ltd.**
+📅 *April 2025 – Present*
+
+- Building an **on-premise Model-as-a-Service (MaaS)** platform powering enterprise AI workloads
+- Deployed **disaggregated inference** with KV-aware routing using NVIDIA Dynamo
+- Implemented **FP8 optimization** for maximum throughput on NVIDIA GPU nodes
+- Supporting **300,000+ LLM requests/day** in production
+- Built **Agentic RAG pipelines** in Kubernetes using LangGraph, Qdrant, and FastAPI
+- Integrated NVIDIA NIM microservices for GPU-accelerated model serving
+
+### **Data Science Intern — Taabi Mobility Ltd. (CEAT)**
+📅 *July 2024 – January 2025*
+
+- Built real-time vehicle health prediction APIs (Python + GraphQL)
+- Improved prediction accuracy: **99.5% → 99.62%**
+- Cut pipeline processing time by **78%** (3 hrs → 40 min)
+
+---
+
+## 🎓 Education
 
 🎓 **PG Diploma in Data Science** — *IIIT Bangalore* (2023–2024)
-Specialization: Deep Learning & Generative AI
+*Specialization: Deep Learning & Generative AI* | CGPA: **3.97 / 4.0**
 
 🎓 **B.Tech in Mechanical Engineering** — *Shivaji University, Kolhapur* (2019–2023)
+CGPA: **8.94 / 10**
 
 ---
 
-## Let’s Connect
+**Core Focus:** LLM Inference · GPU Optimization · Agentic AI · RAG Systems · NVIDIA AI Infrastructure · Kubernetes · MLOps
 
-I’m always open to discussions around:
-
-* **Generative AI & LLM systems**
-* **Model optimization & quantization**
-* **GPU computing and distributed AI infrastructure**
-* **Kubernetes and production ML systems**
-
-If you’re building, scaling, or optimizing AI systems—let’s connect and create something impactful.
+Always open to conversations around **Agentic AI, production LLM systems**, and **GPU-efficient inference**. Let's connect and build something impactful.
