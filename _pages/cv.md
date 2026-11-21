@@ -35,9 +35,9 @@ AI Engineer with hands-on experience in **LLM inference optimization, GPU infras
 
 ---
 
-### **Data Science Intern — Taabi Mobility Ltd. (CEAT)**
+### **Data Scientist — Taabi Mobility Ltd. (CEAT)**
 
-📅 _July 2024 – January 2025_
+📅 _June 2024 – March 2025_
 
 - Built vehicle health prediction algorithms and real-time APIs using Python and GraphQL
 - Improved event prediction accuracy from **99.5% to 99.62%**

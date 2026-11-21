@@ -56,8 +56,8 @@ I know how to make LLMs run **fast, cheap, and at scale** on real hardware. This
 - Built **Agentic RAG pipelines** in Kubernetes using LangGraph, Qdrant, and FastAPI
 - Integrated NVIDIA NIM microservices for GPU-accelerated model serving
 
-### **Data Science Intern — Taabi Mobility Ltd. (CEAT)**
-📅 *July 2024 – January 2025*
+### **Data Scientist — Taabi Mobility Ltd. (CEAT)**
+📅 *June 2024 – March 2025*
 
 - Built real-time vehicle health prediction APIs (Python + GraphQL)
 - Improved prediction accuracy: **99.5% → 99.62%**
